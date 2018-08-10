@@ -115,6 +115,7 @@ Services can be registered via the `$provide` service inside of a module's `conf
 * Official AngularJS API: [Reference](https://docs.angularjs.org/api)
 * AngularJS Official Site: [Home Page](https://angularjs.org/)
 * AngularJS 1.4.8: [angular.min.js](https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js)
+* Angular CLI NPM: [Documentation](https://www.npmjs.com/package/@angular/cli)
 * AngularJS GitHub: [Repo](https://github.com/angular/angular.js)
 * Angular Seed: [Project Template](https://github.com/angular/angular-seed)
 * Codecademy Link: [Learn AngularJS](https://www.codecademy.com/learn/learn-angularjs)
