@@ -4,7 +4,8 @@
 Run `ng serve --open` to start the application. It will be accessible via `localhost:4200`.
 
 # AngularJS (1.4.8)
-AngularJS 1.4.8
+**PSA:** AngularJS 1.X has been renamed to AngularJS. It will be moving to Long Term Support (LTS) mode on July 1st 2018.
+
 ## Templates
 Templates are written in HTML and contain Angular-specific elements and attributes. Angular combines the template with information from the model and controller to render the dynamic view that a user sees in the browser. Inside templates you can use, Directives, Markup ({{ and }} to bind expressions), Filters and Form Controls. In a simple app, the template consists of HTML, CSS and Angular directives contained in a single HTML file (`index.html`). A more complex app may use partials to segment the page into multiple views.
 
@@ -82,3 +83,12 @@ An example of controller testing can found [here](https://code.angularjs.org/1.4
 
 #### Unit Tests
 Services can be registered via the `$provide` service inside of a module's `config` function. This technique is often used in unit tests to mock out a service's dependencies.
+
+# Sources
+* AngularJS Developer Guide: [Conceptual Overview](https://code.angularjs.org/1.4.8/docs/guide/concepts)
+* AngularJS 1.4 Documentation: [Reference](http://devdocs.io/angularjs~1.4/)
+* Official AngularJS API: [Reference](https://docs.angularjs.org/api)
+* AngularJS Official Site: [Home Page](https://angularjs.org/)
+* AngularJS 1.4.8: [angular.min.js](https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js)
+* AngularJS GitHub: [Repo](https://github.com/angular/angular.js)
+* Angular Seed: [Project Template](https://github.com/angular/angular-seed)
