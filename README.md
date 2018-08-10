@@ -85,12 +85,12 @@ An example of controller testing can found [here](https://code.angularjs.org/1.4
 Services can be registered via the `$provide` service inside of a module's `config` function. This technique is often used in unit tests to mock out a service's dependencies.
 
 ## Stuff to Know
-**Front-End Web Application Framework:** AngularJS (1.4.8)
-**Runtime Environment:** NodeJS 6.1.2
-**End-to-End Test Framework:** Protractor
-**JavaScript Test Runner:** Karma
-**JavaScript Test Framework:** Jasmine
-**Package Manager:** Bower
+* **Front-End Web Application Framework:** AngularJS (1.4.8)
+* **Runtime Environment:** NodeJS 6.1.2
+* **End-to-End Test Framework:** Protractor
+* **JavaScript Test Runner:** Karma
+* **JavaScript Test Framework:** Jasmine
+* **Package Manager:** Bower
 
 # Sources
 * AngularJS Developer Guide: [Conceptual Overview](https://code.angularjs.org/1.4.8/docs/guide/concepts)
