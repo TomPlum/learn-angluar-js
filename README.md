@@ -6,6 +6,25 @@ Run `ng serve --open` to start the application. It will be accessible via `local
 # AngularJS (1.4.8)
 **PSA:** AngularJS 1.X has been renamed to AngularJS. It will be moving to Long Term Support (LTS) mode on July 1st 2018.
 
+## Contents
+* [Templates](#templates)
+* [Directives](#directives)
+* [Models](#models)
+* [Expressions](#expressions)
+* [Compiler](#compiler)
+* [Filters](#filters)
+* [Views](#views)
+* [Data Binding](#data-binding)
+* [Controllres](#controllers)
+* [Depedency Injection](#dependency-injection)
+* [Injectors](#injectors)
+* [Modules](#modules)
+* [Services](#services)
+* [Scopes](#scopes)
+* [Testing](#testing-in-angularjs)
+* [Stuff to Know](#stuff-to-know)
+* [Sources](#sources)
+
 ## Templates
 Templates are written in HTML and contain Angular-specific elements and attributes. Angular combines the template with information from the model and controller to render the dynamic view that a user sees in the browser. Inside templates you can use, Directives, Markup ({{ and }} to bind expressions), Filters and Form Controls. In a simple app, the template consists of HTML, CSS and Angular directives contained in a single HTML file (`index.html`). A more complex app may use partials to segment the page into multiple views.
 
