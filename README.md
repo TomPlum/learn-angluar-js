@@ -33,6 +33,7 @@ The model is the data shown to the user in the view and with which the user inte
 Expressions are like JavaScript expressions, but with a few differences. JavaScript expressions are evaluated against the global `window` scope. Where as, Angular expressions are evaluated against a `scope` object. The expressions guide can be found [here](https://code.angularjs.org/1.4.8/docs/guide/expression).
 
 ## Compiler
+Like any other compiler. In this case, when Angular starts the application, it parses and processes the markup from the template using the compiler.
 
 ## Filters
 These are used to format the value of an Expression. The available filters are;
@@ -73,7 +74,8 @@ Naming convention for controllers is like Java class names, suffixed with 'Contr
 
 Dependency injection is a software design pattern that deals with how objects and functions get created and how they get hold of all their dependencies. Everything within Angular (Directives, Filters, Controller, Services etc...) are created and wired using dependency injection. The DI container in Angular is called the Injector.
 
-## Injectors
+## Injector
+The injector is the Dependency Injection container.
 
 ## Modules
 Modules are used as a place where all the things that should work together, are registered. When Angular starts, it will use the configuration of the module with the name defined by the `ng-app` directive, including the configuration of all the modules that this module depends on.
